@@ -1,0 +1,26 @@
+#!/bin/bash
+# Hecho 09102023
+
+echo
+echo " -= Generación de /boot/image.img para el nuevo kernel.  =-"
+echo
+#mkinitrd -c -m ext4 -k $(ls /var/log/packages/ | grep kernel-generic | cut -d- -f3)
+ 
+#mkinitrd -c -k $(ls /var/log/packages/ | grep kernel-generic | cut -d- -f3) -f ext4 -r /dev/sda6 -m xhci-pci:ohci-pci:ehci-pci:xhci-hcd:uhci-hcd:ehci-hcd:hid:usbhid:i2c-hid:hid_generic:hid-asus:hid-cherry:hid-logitech:hid-logitech-dj:hid-logitech-hidpp:hid-lenovo:hid-microsoft:hid_multitouch:jbd2:mbcache:crc32c_intel:crc32c_generic:ext4 -u -o /boot/initrd.gz
+
+mkinitrd -c -k $(ls /var/log/packages/ | grep kernel-generic | cut -d- -f3) -f ext4 -r /dev/sda6 -m usb-storage:xhci-hcd:ext4 -u -o /boot/initrd.gz
+
+echo
+echo " -= Se actualiza la configuración de grub. =-"
+echo
+grub-mkconfig -o /boot/grub/grub.cfg
+echo 
+if [ $? -eq 0 ];
+then
+	echo "  -= Fin de la configuración del Kernel linux."
+else
+	echo "** Hubo un error en la ejecución. **"
+fi
+echo
+}
+#
