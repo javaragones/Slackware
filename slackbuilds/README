@@ -1,0 +1,5 @@
+** Algunos slackbuilds que modifiqué **
+
+sbopkg-current.tar.gz    # Este slackbuilds se basa en la aplicación sbopkg,
+                         # pero es la versión devel que mantiene wilisvr.
+                         # Creada el 22/06/2024.
