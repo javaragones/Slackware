@@ -1,0 +1,16 @@
+** Algunos script que uso. **
+
+NOTA: Son muy básicos. :) 
+
+actualizar_sbo     # Genera una copia del repositorio de Ponce de slackbuilds.
+                   # Usa el sistema de sbopkg con git fetch.
+
+sincronizar_mirror # Mantiene una copia del árbol de directorios de slackware current.
+
+hacer_iso          # Crea un ISO de instalación desde el directorio creado con el anterior
+                   # añadiendo la fecha. Se usa como base, el trabajo de AlienBOB.
+
+configurar_kernel  # Crea el initrd.img y actualiza la configuración de grub, para el
+                   # kernel actualizado.
+
+Autor de los scripts: javaragones. <javaragones@gmail.com>
