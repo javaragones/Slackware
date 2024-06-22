@@ -1,6 +1,6 @@
 ** ALARACION SOBRE ESTE DRIVER **
 
-Este driver esta generado a partir del genérico.
+Este driver esta generado a partir del genérico, obtenido a partir de los slackbuilds de Ponce.
 
 Es especifico para la Epson L3210 y algunas otras.
 
@@ -8,4 +8,9 @@ Puede descargase desde:
 
 https://download.ebz.epson.net/dsc/search/01/search/
 
-22 de Junio de 2024.
+El driver original es de:
+
+Blizzack.
+slackbuilds@blizzack.com
+
+Subido el 22 de Junio de 2024.
