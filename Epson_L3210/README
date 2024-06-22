@@ -1,3 +1,11 @@
-This is a generic driver for many Epson inkjet printers.
+** ALARACION SOBRE ESTE DRIVER **
 
-See README.models for supported printer models.
+Este driver esta generado a partir del genérico.
+
+Es especifico para la Epson L3210 y algunas otras.
+
+Puede descargase desde:
+
+https://download.ebz.epson.net/dsc/search/01/search/
+
+22 de Junio de 2024.
