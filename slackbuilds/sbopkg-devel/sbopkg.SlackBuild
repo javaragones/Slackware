@@ -9,7 +9,7 @@
 # Based on the SlackBuilds.org template.
 
 PRGNAM=sbopkg
-VERSION=${VERSION:-current}
+VERSION=${VERSION:-devel}
 ARCH=${ARCH:-noarch}
 BUILD=${BUILD:-1}
 TAG=${TAG:-_jda}
