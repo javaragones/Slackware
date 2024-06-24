@@ -6,14 +6,14 @@
 # customary to leave one space after the ':' except on otherwise blank lines.
 
       |-----handy-ruler------------------------------------------------------|
-sbopkg: sbopkg  (SlackBuilds.org Package Browser)
+sbopkg: sbopkg devel (SlackBuilds.org Package Browser)
 sbopkg:
 sbopkg: Sbopkg is a command-line and dialog-based tool to interact with the
 sbopkg: SlackBuilds.org repository, a collection of third-party SlackBuild
-sbopkg: scripts to build Slackware packages.
-sbopkg:
+sbopkg: scripts to build Slackware packages. 
+sbopkg: This are de devel version. :-)
 sbopkg: Homepage   :  https://www.sbopkg.org
 sbopkg: Development:  https://github.com/sbopkg/sbopkg
-sbopkg:
+sbopkg: from willysr. :)
 sbopkg:
 sbopkg:
