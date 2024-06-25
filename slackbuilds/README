@@ -1,7 +1,12 @@
 ** Algunos slackbuilds que modifiqué **
 
-sbopkg-current.tar.gz    # Este slackbuilds se basa en la aplicación sbopkg,
-                         # pero es la versión devel que mantiene willysr.
-                         # Clonado de https://github.com/sbopkg/sbopkg.git
-                         # Creada el 22/06/2024.
+sbopkg-devel:       # Este slackbuilds se basa en la aplicación sbopkg,
+                    # pero es la versión devel que mantiene willysr.
+                    # Clonado de https://github.com/sbopkg/sbopkg.git
+                    # Creada el 22/06/2024.
 
+mate-netbook:       # Si bien, la rama 1.28 no provée un paquete para
+                    # mate-netbook, utilizo la 1.27. Esta basado en los
+                    # slackbuilds preparados por willysr para MATE en
+                    # Slackware Current.
+                    # https://github.com/mateslackbuilds/msb.git
