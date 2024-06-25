@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# Slackware build script for mate-calc
+# Slackware build script for mate-netbook
 
 # Copyright 2013 Chess Griffin <chess.griffin@gmail.com> Raleigh, NC
 # Copyright 2013-2024 Willy Sudiarto Raharjo <willysr@slackware-id.org>
