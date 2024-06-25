@@ -2,9 +2,9 @@
 mate-netbook:  mate-netbook (Netbook setup for MATE Desktop.
 mate-netbook:
 mate-netbook: 
-mate-netbook: mate-netbook 1.27
-mate-netbook:
-mate-netbook:
+mate-netbook: mate-netbook 1.27. Provee mate-maximus.
+mate-netbook: NOTA: la rama 1.28, no incluye mate-netbook, por lo
+mate-netbook: que uso la rama anterior, la 1.27. Arch usa la 1.26.
 mate-netbook:
 mate-netbook:
 mate-netbook: Homepage: https://www.mate-desktop.org
