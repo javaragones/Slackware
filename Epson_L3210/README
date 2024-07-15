@@ -1,11 +1,27 @@
-** ALARACION SOBRE ESTE DRIVER **
+=================================================================
+** CLARIFICATION ABOUT THIS DRIVER **
+
+This driver is generated from the generic one, obtained from the Ponce slackbuilds.
+
+It is specific for the Epson EcoTank L3210 and some others.
+
+It can be downloaded the driver from:
+https://download.ebz.epson.net/dsc/search/01/search/
+
+The original driver is from:
+
+Blizzack.
+slackbuilds@blizzack.com
+
+Updated: Jun 22, 2024.
+===================================================================
+** ACLARACION SOBRE ESTE DRIVER **
 
 Este driver esta generado a partir del genérico, obtenido a partir de los slackbuilds de Ponce.
 
 Es especifico para la Epson L3210 y algunas otras.
 
 Puede descargase desde:
-
 https://download.ebz.epson.net/dsc/search/01/search/
 
 El driver original es de:
