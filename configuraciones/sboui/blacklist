@@ -13,10 +13,12 @@
 # will be checked for the regex: name, version, arch, build, and full package
 # name.
 #
-# This one will blacklist all Alien Bob packages
-[0-9]+alien
-[0-9]+_lngn
-[0-9]+
-
+# Blacklist repositories.
+# 
+[0-9]+alien    # This one will blacklist all Alien Bob packages
+[0-9]+_lngn    # This blacklist all Lanagam packages
+[0-9]+         # This blacklist all official slackware packages
+#
+#
 # This one would blacklist anything with "flash" in the name
 #(.*)flash(.*)
