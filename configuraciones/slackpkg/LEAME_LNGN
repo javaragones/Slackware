@@ -1,0 +1,16 @@
+NOTAS ACERCA  DE LA CONFIGURACION CON EL REPOSITORIO LNGN
+==========================================================
+
+La idea es bajar y compilar los paquetes de lngn,
+
+Se clona: https://codeberg.org/jlngn/slackaroni.git
+
+El proceso considte en buscar o mostrar la información de un paquete en los repos de slack, alienbob, ponce y slackaroni.
+
+Se agrega el repo slackaroni en slackpkgplus.conf, en la lista de repos, debe quedar: slackpkgplus, slackaroni y alienbob.
+
+En el archivo greylist se agrega "[0-9]+_lngn",esto evita que esten seleccionados.
+
+En blacklist, NO debe estar indicado.
+
+Luego al buscar o querer instalar o alctualizar, aparecen pero desmarcados. La idea es usar los compilados desde las fuentes.
