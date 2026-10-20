@@ -38,4 +38,5 @@
 #kernel-source
 #
 # This one will blacklist all SBo packages:
-#[0-9]+_SBo
+[0-9]+_SBo
+#[0-9]+_lngn
