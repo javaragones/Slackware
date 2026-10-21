@@ -1,0 +1,15 @@
+#! /bin/sh
+# Script para buscar paquetes en slackaroni
+
+n=""
+
+echo "+++++++++++++++++++++++++++++++++++"
+echo
+echo "Ingrese paquete......"
+read n
+echo
+echo "+++++++++++++++++++++++++++++++++++"
+echo
+find /home/javier/software/slackaroni/ -type d \( -iname "*$n*" \)
+echo
+echo "+++++++++++++++++++++++++++++++++++"
