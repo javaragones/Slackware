@@ -1,11 +1,15 @@
 #! /bin/sh
 # Script para buscar paquetes en slackaroni
+# IMPORTANTE: Las fuentes de slackaroni deben estar en /home/javier/software.
+# Las fuentes se descargan de https://codeberg.org/jlngn/slackaroni
+# El script buscará solo los directorios del paquete.
+# Javier Aragonés, 21/10/2026
 
 n=""
 
 echo "+++++++++++++++++++++++++++++++++++"
 echo
-echo "Ingrese paquete......"
+echo "Ingrese nombre del paquete a buscar ......"
 read n
 echo
 echo "+++++++++++++++++++++++++++++++++++"
